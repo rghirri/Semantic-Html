@@ -1,0 +1,182 @@
+/***********************/
+/* General styles */
+/***********************/
+/****************************/
+/*Style Variables*/
+/***************************/
+/****************************/
+/*End Style Variables*/
+/***************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/***********************/
+/* End General styles */
+/***********************/
+/***********************/
+/* General table styles */
+/***********************/
+/*table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.Content-Font {
+  font-family: $fontFamilyContent;
+  font-size: 0.7rem;
+}
+
+.Content-table {
+  border-left: 2px solid #800080;
+  border-right: 2px solid #800080;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 8px;
+}
+
+
+
+.Caption-Style {
+  font-family: $fontFamilyHead;
+  font-size: 0.7rem;
+  text-align: right;
+}
+
+.HeaderFooterStyle {
+  font-family: $fontFamilyHead;
+  font-size: 0.7rem;
+  border-top: 2px solid #800080;
+  border-bottom: 2px solid #800080;
+  .Head-Footer-Border {
+    border-left: 2px solid #800080;
+    border-right: 2px solid #800080;
+  }
+  color: white;
+}
+
+/****************************/
+/* End General table styles */
+/***************************/
+/***********************/
+/* Table background styles */
+/***********************/
+/*
+.Table-Background {
+  background-image: url("images/noise-image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.DarkPink {
+  background-color: #ff33cc;
+}
+
+.LightPink {
+  background-color: #e495e4;
+}
+
+.Head-Footer-Background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+    url("images/leopardskin.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*******************************/
+/* End Table background styles */
+/******************************/
+/***********************/
+/* General table styles */
+/***********************/
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-left: 2px solid #800080;
+  border-right: 2px solid #800080;
+}
+
+thead tr {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("images/leopardskin.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Rock Salt", cursive;
+  font-size: 0.7rem;
+  border-top: 2px solid #800080;
+  border-bottom: 2px solid #800080;
+  color: white;
+}
+thead tr th {
+  border-left: 2px solid #800080;
+  border-right: 2px solid #800080;
+  text-align: center;
+  padding: 8px;
+}
+
+tbody {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7rem;
+  background-image: url("images/noise-image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+tbody td,
+tbody th {
+  text-align: center;
+  padding: 8px;
+}
+
+caption {
+  font-family: "Rock Salt", cursive;
+  font-size: 0.7rem;
+  text-align: right;
+}
+
+tfoot tr {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("images/leopardskin.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Rock Salt", cursive;
+  font-size: 0.7rem;
+  border-top: 2px solid #800080;
+  border-bottom: 2px solid #800080;
+  color: white;
+}
+tfoot tr th {
+  border-left: 2px solid #800080;
+  border-right: 2px solid #800080;
+}
+
+.align-Left {
+  text-align: left;
+  padding: 8px;
+}
+
+.align-right {
+  text-align: right;
+  padding: 8px;
+}
+
+.DarkPink {
+  background-color: #ff33cc;
+}
+
+.LightPink {
+  background-color: #e495e4;
+}
